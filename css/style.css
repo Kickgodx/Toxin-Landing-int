@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.full-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 70px;
+}
+
+.link-item {
+    text-decoration: none;
+}
+.site-nav-items li {
+    list-style: none;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 50%;
+}
+
+.site-nav-items li:hover {
+    opacity: 100%;
+}
+
+.site-nav-items {
+    display: flex;
+    padding-top: 26px;
+    padding-bottom: 23px;
+    margin-left: 284px;
+}
+
+.logo-c {
+    padding-top: 10px;
+}
+
+.site-nav-items .darker {
+    opacity: 75%;
+}
+
+.sign-in {
+    height: 34px;
+    color: #BC9CFF;
+    background-color: white;
+    border-radius: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    padding: 9px 20px 10px 20px;
+    border: 2px solid;
+    border-color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    /* border-image-source: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%); */
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.sign-up {
+    height: 34px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 22px;
+    border-color: #BC9CFF;
+    border-width: 2px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    padding: 9px 20px 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.user-profile {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.logged {
+    margin-left: 466px;
+}
+
+.sign-in:hover {
+    background-color: #BC9CFF;
+    color: white;
+}
+
+footer {
+    height: 372px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .brand {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+    padding-top: 100px;
+}
+
+.footer-nav-list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-nav-list-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.footer-nav-list-item a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.first-item-bold a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+    text-decoration: none;
+}
+
+.footer-nav, .about-us, .support, .subscribe {
+    padding-top: 104px;
+}
+
+.sub-text-info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    border: 1px solid #1F204140;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    height: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    /* Dark 25% */
+    color: rgba(31, 32, 65, 0.25);
+    width: 83%;
+}
+
+.custom-inputs {
+    display: flex;
+}
+
+button[type=submit] {
+    border: 1px solid #1F204140;
+    border-radius: 0 4px 4px 0;
+    background-color: transparent;
+    border-left: none;
+    cursor: pointer;
+    width: 17%;
+}
+
+.copyright {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 75% */
+    color: rgba(31, 32, 65, 0.75);
+    /* display: flex; */
+}
+
+.copyright div {
+    padding: 27px 0;
+}
+
+.copy-text {
+    padding-left: 0;
+    display: inline-block;
+    
+}
+
+.social {
+    padding-right: 0;
+    display: inline-block;
+    margin-left: 56%;
+}
+
+.social a {
+    padding-left: 20px;
+}
